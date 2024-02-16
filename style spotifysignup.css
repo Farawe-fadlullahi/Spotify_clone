@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.general{
+    background-color: #121212;
+}
+nav {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    background-color: #121212;
+}
+
+nav img {
+    width: 150px;
+}
+form{
+    background-color: #121212;
+    width:400px;
+    height: 120vh;
+}
+.rr{
+    font-family: sans-serif;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+.sa p{
+    margin: 10px 0 0  0;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.sa input{
+    width: 80%;
+    height: 50px;
+    border: 1px solid gray;
+    color: rgb(150, 146, 146);
+    background-color: rgba(0, 0, 0, 0.699);
+}
+.sa input:focus-within{
+    
+    outline: 3px solid white;
+}
+.sa input:hover{
+    border: 1px solid white;
+}
+.button button{
+    width: 80%;
+    height: 50px;
+    background-color: #1ed760;
+}
+.hori{
+    width: 80%;
+}
+.ha{
+    width: 45%;
+}
+.hb{
+    width: 5%;
+}
+.fa{
+    width: 80%;
+    border: 0.5px solid white;
+    height: 50px;
+}
+.a{
+    padding: 0 0 0 5px;
+    width: 50px;
+}
+.e{
+    padding: 0 0 0 15px;
+    width: 40px;
+}
+.fa p{
+    color: white;
+    padding: 10px 0 0 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.fa:hover{
+    border: 2px solid white;
+}
+hr{
+    width: 80%;
+}
+aside{
+    width: 80%;
+}
+p[a]{
+    font-size: 16px;
+    color: rgb(83, 77, 77);
+}
+header{
+    width: 80%;
+}
+span{
+    font-size: smaller;
+}
+
+
+
+@media(max-width:480px){
+    form{
+        width: 100%;
+        height: fit-content;
+    }
+}

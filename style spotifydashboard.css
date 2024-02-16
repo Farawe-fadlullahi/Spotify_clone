@@ -1,0 +1,334 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+.general{
+    background-color: black;
+    height: 88vh;
+}
+.small{
+    width: 330px;
+    background-color: black;
+    height: 100%;
+}
+.big{
+    width: 74%;
+    height: 100%;
+}
+.sma{
+    width: 95%;
+    background-color: #181717;
+    height: 27.65%;
+}
+.sma aside{
+    display: flex;
+    align-items: center ;
+    justify-content: space-evenly;
+    width: 32%;
+    font-size: large;
+    font-weight: 500;
+}
+.smb{
+    width: 95%;
+    height: 68.6%;
+    background-color: #141313;
+}
+section[a]{
+    height: 46.9%;
+    background-color: #181717;
+}
+.smb header{
+    width: 100%;
+    height: 30%;
+}
+section[b]{
+    width: 100%;
+    height: 70%;
+    overflow-y:scroll ;
+    background-color:#141313;
+    
+}
+section[b]::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 0.651);
+    height: 50px;
+    display: none;
+}
+section[b]::-webkit-scrollbar{
+    background-color: rgba(10, 10, 10, 0);
+    width: 13px;
+}
+section[b] aside{
+    width: 100%;
+    height: 137px;
+    background-color:#242424;
+    color: white;
+}
+section[b]:hover::-webkit-scrollbar-thumb{
+    display: block;
+}
+section[c]{
+    width: 99%;
+    height: 190px;
+}
+aside h6{
+    font-size: 17px;
+    font-weight: 700;
+}
+aside p{
+    font-size: 15px;
+    font-weight: 500;
+}
+aside button{
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+aside button:hover{
+    scale: 1.04;
+}
+section[c] section{
+    height: 24%;
+    font-size: smaller;
+    color: rgb(187, 181, 181);
+}
+ button[a]{
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 33px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(204, 18, 18, 0);
+    
+}
+section[e]{
+    width: 40%;
+    height: 90%;
+    font-size:15px;
+    font-weight: 500;
+}
+section[f]{
+    /* background-color: rgba(255, 235, 205, 0); */
+    width: 15%;
+    height: 90%;
+}
+section[f]:hover{
+    background-color: rgba(255, 255, 255, 0.322);
+}
+nav{
+    padding: 0 0 0 20px;
+    width: 100%;
+    height: 10vh;
+    background-color:rgba(0, 0, 0, 0.884);
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.ba{
+    height: 290px;
+    background-color: black;
+}
+.bod{
+    margin-top: 65px;
+}
+.big{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.bc{
+    height: 250px;
+    display: flex;
+}
+hr{
+    width: 90%;
+}
+.bod h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+.ba section{
+    width:175px ;
+    height:240px ;
+    background-color: rgba(234, 236, 236, 0.089);
+    padding: 0 0 0 13px;
+}
+section h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+section p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(167, 158, 158);
+}
+.bo{
+    width: 75px;
+    position: absolute;
+    top: 90px;
+    right: 5px;
+    display: none;
+    transition: all 1.5s ease;
+}
+.ba section:hover{
+    background-color: rgba(255, 255, 255, 0.301);
+    transition: all 1s ease;
+    border-radius: 5px;
+}
+.ba section:hover .bo{
+    display: block;
+}
+.bcb aside{
+    background-color:rgba(255, 255, 255, 0.11);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    border-radius: 100%;
+}
+.bcb aside:hover{
+    text-underline-offset: 20px;
+    text-decoration: underline 4px solid rgb(65, 60, 60);
+    background-color: rgba(255, 255, 255, 0.459);
+}
+.bcca{
+    width: 200px ;
+    height: 100%;
+}
+.bcca h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+.bcca p{
+    font-size: 18px;
+    color: rgb(201, 193, 193);
+}
+.bcca p:hover{
+    text-decoration: underline;
+}
+.nab{
+    width: 300px;
+    height: 55px;
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nab button{
+    width: 38%;
+    height: 90%;
+    border-radius: 100px;
+    font-size: medium;
+    font-weight: 700;
+    border: 0;
+}
+.nab button:hover{
+    scale: 1.03;
+}
+.ee{
+    width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+.ef{
+    width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+}
+.wa,.wb,.wc,.wd,.we{
+    display: flex;
+}
+.bca{
+    width: 75%;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.bcb{
+    width: 300px;
+}
+.last{
+    height: 12vh;
+    background:  linear-gradient(to right,rgb(174,40,150) ,rgb(81,154,244));
+    justify-content: space-evenly;
+}
+.big::-webkit-scrollbar{
+    background-color: #35343600;
+}
+.la p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.lb button{
+    width: 70%;
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    font-size: medium;
+    font-weight: 700;
+}
+.lb{
+    width: 20%;
+}
+
+
+
+@media(max-width:1115px){
+    .nab{
+        width: 250px;
+        margin-left: 450px;
+    }
+    .wa{
+        display: none;
+    }
+    .bca{
+        width:60% ;
+        height: fit-content;
+    }
+    .bcca{
+        height: 50%;
+    }
+    div[a]{
+        margin: 0px 200px 0 0;
+    }
+    .bc{
+        justify-content: space-between;
+        height: fit-content;
+    }
+
+}
+@media(max-width:1080px){
+    .wb{
+        display: none;
+    }
+    span[a]{
+        display: none;
+    }
+    .bc{
+        display: block;
+    }
+    div[a]{
+        margin: 0 0 0 0;
+    }
+}
+@media(max-width:878px){
+    .wc{
+        display: none;
+    }
+    .bod{
+        width: 500px;
+    }
+}
